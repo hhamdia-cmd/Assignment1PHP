@@ -1,9 +1,11 @@
 <?php
-$students =  [["name" => "Haneen Hamdia", "grade" => 95, "age" => 20],
-             ["name" => "Yasmeen Mohsen", "grade" => 90, "age" => 19],
-             ["name" => "Mariam Abd", "grade" => 74, "age" => 22],
-             ["name" => "Taleen khader", "grade" => 55, "age" => 19],
-             ["name" => "Ibrahim shaban", "grade" => 61, "age" => 23]];
+$students =  [
+            ["name" => "Haneen Hamdia", "grade" => 95, "age" => 20],
+            ["name" => "Yasmeen Mohsen", "grade" => 90, "age" => 19],
+            ["name" => "Mariam Abd", "grade" => 74, "age" => 22],
+            ["name" => "Taleen khader", "grade" => 55, "age" => 19],
+            ["name" => "Ibrahim shaban", "grade" => 61, "age" => 23]
+            ];
 
 function calculateStatus($grade) {
     if($grade >= 90){
