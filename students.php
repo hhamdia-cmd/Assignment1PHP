@@ -34,8 +34,14 @@ $minGrade = min($gradesList);
 $averageGrade = $GradesTotal / count($students);
 
 ?>
-<html>
-<body>
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Assignment 1</title>
+    </head>
+    <body>
     <table border="1">
         <thead>
             <tr>
